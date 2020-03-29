@@ -1,11 +1,21 @@
+// import {
+//   findMedianSortedArrays,
+//   findMedianFromSortedArrays,
+//   INPUT
+// } from './questions/findMedianFromSortedArrays';
+
+// const median = findMedianSortedArrays(INPUT);
+// console.log({ median });
+
+// const median2 = findMedianFromSortedArrays(INPUT.nums1, INPUT.nums2);
+// console.log({ median2 });
+
 import {
-  findMedianSortedArrays,
-  findMedianFromSortedArrays,
-  INPUT
-} from './questions/findMedianFromSortedArrays';
+  INPUT,
+  mergeKLists,
+  logLinkedList
+} from './questions/mergeKSinglyLinkedLists';
 
-const median = findMedianSortedArrays(INPUT);
-console.log({ median });
+const merged = mergeKLists(INPUT);
 
-const median2 = findMedianFromSortedArrays(INPUT.nums1, INPUT.nums2);
-console.log({ median2 });
+logLinkedList(merged);
