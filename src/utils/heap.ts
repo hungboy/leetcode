@@ -1,5 +1,10 @@
 import { ComparitorFunction } from './types';
 
+// Heap is a tree structure where the level of an element is based on it's comparitor function score
+// Levels are sorted by comparitor
+// Siblings on the same level aren't sorted left -> right
+// Constructing a heap of n elements, takes nLog(n) Time complexity
+
 export class Heap<T> {
   public contents: T[];
 

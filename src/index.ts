@@ -1,21 +1,3 @@
-// import {
-//   findMedianSortedArrays,
-//   findMedianFromSortedArrays,
-//   INPUT
-// } from './questions/findMedianFromSortedArrays';
+import { DE_SERIALIZE } from './questions/serializeBinarySearchTree';
 
-// const median = findMedianSortedArrays(INPUT);
-// console.log({ median });
-
-// const median2 = findMedianFromSortedArrays(INPUT.nums1, INPUT.nums2);
-// console.log({ median2 });
-
-import {
-  INPUT,
-  mergeKLists,
-  logLinkedList
-} from './questions/mergeKSinglyLinkedLists';
-
-const merged = mergeKLists(INPUT);
-
-logLinkedList(merged);
+DE_SERIALIZE();
