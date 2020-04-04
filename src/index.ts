@@ -1,3 +1,3 @@
-import { DE_SERIALIZE } from './questions/serializeBinarySearchTree';
+import { RUN_ZOMBIES } from './questions/breadthFirst/zombies';
 
-DE_SERIALIZE();
+RUN_ZOMBIES();

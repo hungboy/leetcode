@@ -4,7 +4,23 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "index",
+      "name": "TS-node launch current file",
+      "protocol": "inspector",
+      "internalConsoleOptions": "openOnSessionStart",
+      "args": ["${file}"],
+      "runtimeArgs": ["-r", "ts-node/register"]
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "TS-Node",
       "args": ["src/index.ts"],
       "runtimeArgs": ["-r", "ts-node/register"],
       "cwd": "${workspaceFolder}",
