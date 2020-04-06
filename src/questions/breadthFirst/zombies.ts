@@ -83,7 +83,3 @@ export const calculateNextState = (
 const SAMPLE_INSTANCES = calculateCoordinates(SAMPLE_LANDSCAPE);
 
 const NEXT_LANDSCAPE = calculateNextState(SAMPLE_LANDSCAPE, SAMPLE_INSTANCES);
-
-console.log(
-  `number of iterations: ${calculateNumberIterations(SAMPLE_LANDSCAPE)}`
-);
